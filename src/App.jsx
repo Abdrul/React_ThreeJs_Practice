@@ -7,12 +7,6 @@ function App() {
   return (
     <div className="App">
       <Canvas
-        // dpr={1}
-        gl={{
-          antialias: true,
-          toneMapping: THREE.ACESFilmicToneMapping,
-          outputEncoding: THREE.sRGBEncoding,
-        }}
         camera={{
           fov: 45,
           near: 0.1,
