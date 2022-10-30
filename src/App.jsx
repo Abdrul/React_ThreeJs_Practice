@@ -2,10 +2,12 @@ import { Canvas } from "@react-three/fiber";
 import Experience from "./Experience";
 import "./App.css";
 import * as THREE from "three";
+import { Leva } from "leva";
 
 function App() {
   return (
     <div className="App">
+      <Leva collapsed />
       <Canvas
         camera={{
           fov: 45,
