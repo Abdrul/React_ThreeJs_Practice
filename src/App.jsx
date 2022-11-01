@@ -7,17 +7,16 @@ import { Leva } from "leva";
 function App() {
   return (
     <div className="App">
-      <Leva collapsed />
+      {/* <Leva collapsed /> */}
       <Canvas
-        shadows
+        // shadows
         camera={{
           fov: 45,
           near: 0.1,
-          far: 50,
+          far: 200,
           position: [-4, 3, 6],
         }}
       >
-        {/* <color args={["ivory"]} attach="background" /> */}
         <Experience />
       </Canvas>
     </div>
